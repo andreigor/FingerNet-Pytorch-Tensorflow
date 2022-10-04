@@ -1,0 +1,44 @@
+Primeiro, baixe o instalador do miniconda
+
+Miniconda3-py39_4.10.3-Linux-x86_64.sh
+
+do site
+
+https://docs.conda.io/en/latest/miniconda.html
+
+Execute
+
+sh Miniconda3-py39_4.10.3-Linux-x86_64.sh
+
+Em seguida crie o ambiente
+
+conda create -n mc857
+
+Ative o ambiente
+
+conda activate mc857
+
+Para desativar faça 
+
+conda deactivate
+
+Instale os pacotes:
+
+# Para GPU
+# conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+
+# para CPU
+
+conda install pytorch torchvision cpuonly -c pytorch
+pip install torch-summary
+pip install torch-snippets
+conda install keras
+conda install tensorflow
+condda install jupyter
+pip install  scikit-learn
+pip install pydot
+pip install graphicviz
+pip install pydotplus        
+conda install imageio
+
+Have fun!
